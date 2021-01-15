@@ -10,3 +10,4 @@ es
 .github
 scripts
 webpack.config.js
+jest.config.js

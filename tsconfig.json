@@ -16,6 +16,6 @@
       "@packages": ["packages/*"]
     }
   },
-  "include": ["./typings.d.ts"],
+  "include": ["./typings.d.ts", "packages/**/*.tsx", "packages/**/*.ts"],
   "exclude": ["node_modules", "lib", "es", "dist", "typings"]
 }
