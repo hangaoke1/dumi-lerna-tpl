@@ -1,4 +1,4 @@
-# ysf-common father-build + lerna多包管理模版
+# ysf-common 基于father-build + lerna多包管理模版
 
 ## 快速开始
 
@@ -152,17 +152,16 @@ describe('useTest', () => {
 组件测试示例
 
 ```tsx
-import React from 'react';
+import * as React from 'react';
 import { render } from '@testing-library/react';
-import YsHeaderDemo from '../demo';
+import TreeSelect from '../index';
 
-describe('业务组件 YsHeader 测试', () => {
-  it('正常渲染', () => {
-    const wrapper = render(<YsHeaderDemo />);
-    const el = wrapper.container.querySelector('.ysHeader-container');
-    expect(el).not.toBeNull();
-  });
+test('TreeSelect test', () => {
+  const wrapper = render(<TreeSelect />);
+  const el = wrapper.queryByText('pro-components TreeSelect');
+  expect(el).toBeTruthy();
 });
+
 ```
 
 #### 单元测试资料
