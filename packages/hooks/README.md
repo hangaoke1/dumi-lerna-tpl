@@ -1,1 +1,1 @@
-# @ysf/hooks 云商公共 hooks
+# @ysf/hooks 通用 hooks

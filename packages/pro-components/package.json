@@ -1,7 +1,7 @@
 {
   "name": "@ysf/pro-components",
-  "version": "0.0.3",
-  "description": "ysf云商服通用公共组件",
+  "version": "0.0.1",
+  "description": "通用公共组件",
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "lib/index.d.ts",

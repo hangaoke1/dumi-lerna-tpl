@@ -1,7 +1,7 @@
 {
   "name": "@ysf/hooks",
-  "version": "0.0.3",
-  "description": "ysf云商服通用hooks",
+  "version": "0.0.1",
+  "description": "通用hooks",
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "lib/index.d.ts",
