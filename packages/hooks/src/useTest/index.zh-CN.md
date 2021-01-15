@@ -11,6 +11,4 @@ group:
 
 ### 依赖安装
 
-```bash
-$ npm i @ife/hooks
-```
+use-test

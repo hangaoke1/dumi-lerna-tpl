@@ -1,4 +1,13 @@
-# ife-common 基于dumi + father-build + lerna多包管理模版
+# ife-common 基于 dumi + father-build + lerna 多包管理模版
+
+## feature
+
+1. ✅ 多包管理
+2. ✅ 单元测试
+3. ✅ 文档阅读
+4. ✅ eslint 规范
+5. ✅ cjs + esm 编译
+6. ✅ typescript
 
 ## 快速开始
 
@@ -161,7 +170,6 @@ test('TreeSelect test', () => {
   const el = wrapper.queryByText('pro-components TreeSelect');
   expect(el).toBeTruthy();
 });
-
 ```
 
 #### 单元测试资料
