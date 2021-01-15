@@ -1,4 +1,4 @@
-# ysf-common 基于father-build + lerna多包管理模版
+# ife-common 基于dumi + father-build + lerna多包管理模版
 
 ## 快速开始
 
@@ -31,8 +31,8 @@ $ npm run build
 
 - packages
 
-  - hooks ---> @ysf/hooks 通用 hooks，不涉及业务逻辑
-  - pro-components ---> @ysf/pro-components 通用 ppfish 增强组件，不涉及业务逻辑
+  - hooks ---> @ife/hooks 通用 hooks，不涉及业务逻辑
+  - pro-components ---> @ife/pro-components 通用 ppfish 增强组件，不涉及业务逻辑
     - Table
     - Form
     - ......

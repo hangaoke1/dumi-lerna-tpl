@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "ysf-common",
+  "name": "ife-common",
   "version": "1.0.0",
   "scripts": {
     "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",

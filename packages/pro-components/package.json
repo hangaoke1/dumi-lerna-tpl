@@ -1,5 +1,5 @@
 {
-  "name": "@ysf/pro-components",
+  "name": "@ife/pro-components",
   "version": "0.0.1",
   "description": "通用公共组件",
   "main": "lib/index.js",

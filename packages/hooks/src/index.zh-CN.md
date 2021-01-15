@@ -12,5 +12,5 @@ group:
 ### 依赖安装
 
 ```bash
-$ npm i @ysf/hooks
+$ npm i @ife/hooks
 ```

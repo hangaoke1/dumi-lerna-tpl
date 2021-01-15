@@ -2,7 +2,7 @@ import { defineConfig } from 'dumi';
 import { resolve } from 'path';
 
 export default defineConfig({
-  title: 'ysf-common',
+  title: 'ife-common',
   favicon:
     'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   logo:
@@ -10,11 +10,11 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   alias: {
-    '@ysf/pro-components': resolve(
+    '@ife/pro-components': resolve(
       __dirname,
       './packages/pro-components/src/index.ts',
     ),
-    '@ysf/hooks': resolve(__dirname, './packages/hooks/src/index.ts'),
+    '@ife/hooks': resolve(__dirname, './packages/hooks/src/index.ts'),
   },
   resolve: {
     includes: [

@@ -1,5 +1,5 @@
 {
-  "name": "@ysf/hooks",
+  "name": "@ife/hooks",
   "version": "0.0.1",
   "description": "通用hooks",
   "main": "lib/index.js",

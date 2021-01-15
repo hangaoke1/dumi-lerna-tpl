@@ -12,5 +12,5 @@ group:
 ### 依赖安装
 
 ```bash
-$ npm i @ysf/pro-components
+$ npm i @ife/pro-components
 ```
