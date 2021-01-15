@@ -1,0 +1,26 @@
+{
+  "name": "@ysf/hooks",
+  "version": "0.0.3",
+  "description": "ysf云商服通用hooks",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "father-build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "ppfish": "^1.7.6",
+    "react": "^16.x"
+  },
+  "author": "ys-fontend",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": ""
+}
