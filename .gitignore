@@ -38,3 +38,5 @@ screenshot
 .eslintcache
 .changelog
 .changelog.md
+
+pnpm-lock.yaml

@@ -4,4 +4,12 @@ export default {
     type: 'babel',
     importLibToEs: true,
   },
+  extraBabelPlugins: [
+    [
+      '@babel/plugin-transform-runtime',
+      {
+        corejs: 3,
+      },
+    ],
+  ],
 };
